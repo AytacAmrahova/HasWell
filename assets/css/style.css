@@ -419,6 +419,353 @@ header ul li ul li ul{
     background-position: center center;
 }
 
+/* Our Services section */
+
+.our-services{
+    padding: 130px 150px 50px 150px ;
+}
+
+.section-title h1{
+    margin: 0;
+    padding: 22px 25px 24px 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4b4e53;
+    border-left: #4b4e53 2px solid;
+    text-transform: uppercase;
+}
+
+.section-title h1 span{
+    font-weight: 700;
+}
+
+.service-item-left i{
+    font-size: 45px;
+}
+
+.service-item-right h3{
+    font-size: 18px;
+    margin: 0;
+}
+
+.service-item-right p{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #7e8082;
+}
+
+.service-item-bottom p{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    color: #7e8082;
+}
+
+.our-services-item{
+    margin-bottom: 75px;
+}
+
+/* Projects section style */
+/* .projects{
+    padding-bottom: 80px;
+} */
+
+.project--img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+}
+.project-img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all .3s ease 0s;
+}
+
+.project-img img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease 0s;
+    
+}
+.project-img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.project-item{
+    padding-left: 0 !important;
+}
+
+.project-overlay{
+    display: none;
+}
+
+.project-img:hover .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff ;
+}
+
+.project-img:hover .project-overlay .project-overlay-top h3 a{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+.project-overlay-top h3{
+    margin: 0;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.project-overlay-content{
+    padding: 50px;
+}
+
+.project-overlay-top h3 a{
+    font-size: 13px !important ;
+    color: #bebebe;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+.project-overlay-top h3 a:hover{
+    color: #fff;
+}
+
+.project-img:hover .project-overlay .project-overlay-top span a{
+    top: 82px;
+    left: 80px;
+    position: absolute;
+    color: #bebebe;
+    font-size: 10px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+
+.project-img:hover .project-overlay .project-overlay-top span a:hover{
+    color: #fff;
+}
+
+.project-img:hover .project-overlay .overlay-bottom{
+    top: 105px;
+    left: 80px;
+    position: absolute;
+    color: #bebebe;
+    font-size: 10px !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.project-img:hover .project-overlay .overlay-bottom a{
+    font-size: 15px;
+    color: #bebebe;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+.project-img:hover .project-overlay .overlay-bottom a:hover{
+color: #fff;
+}
+.search-link{
+    margin-right: 5px;
+}
+
+/* .project-img:hover .project-overlay .overlay-bottom .search-link{
+    margin-right: 10px !important;
+} */
+
+.view-more{
+    background: #eee;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view-more a:hover{
+    background: #dedede;
+    color: #4b4e53;
+}
+
+.view-more a{
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 37px;
+    display: block;
+    background: #eee;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 100;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+    color: #4b4e53;
+    text-transform: uppercase;
+    transition: all .3s ease 0s;
+}
+
+
+/* Our clients section */
+.our-clients{
+    padding: 110px 160px;
+}
+.client-row img {
+    height: 100px;
+}
+
+.our-clients-title{
+    margin-bottom: 50px;
+}
+
+.client-row .col-sm-3:first-child {
+    border-left: none;
+}
+
+.client-row .col-sm-3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid #eee;
+}
+
+.border-bot{
+    border-bottom: 1px solid #eee;
+}
+
+.quote p {
+    margin-bottom: 24px;
+    color: #4b4e53;
+    font-family: Lato,Arial,Helvetica,sans-serif;
+    font-size: 21px;
+    line-height: 32px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.quote {
+    padding: 10px 20px 10px 50px;
+}
+
+.quote footer{
+    font-size: 14px;
+    color: #7e8082;
+    font-style: normal;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    line-height: 1.42857143;
+    font-weight: 100;
+}
+
+footer::before{
+    content: '\2014 \00A0';
+}
+
+/* Work process section */
+.work-process{
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.work-proc-1-bg {
+    margin: 0;
+    padding: 0;
+    background: #2c2c2c url("../img/work-proc-bg.jpg") fixed;
+    color: #f1f1f1;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.fes4-cont{
+    padding: 130px 0 80px 0;
+}
+
+/* .work-process-content{
+    z-index: 10;
+    position: relative;
+} */
+
+.work-process-section-title h1{
+    color: #fff !important;
+    border-left: #fff 2px solid;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.col-lg-offset-1{
+    margin-left: 8.33333333%;
+}
+
+.process-left i{
+    font-size: 45px;
+}
+
+.process-right h1{
+    color: #f1f1f1;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.process-right p{
+    color: #d3d4d5;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.process-items{
+    margin-bottom: 60px;
+}
+
+/* Our Team section */
+
+.our-team{
+    padding: 100px 160px 0 160px;
+    background: #f4f4f4;
+
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+/* Optimized mobile section */
+.optimized-row{
+    padding: 50px 0 45px 0;
+}
+
+.bold {
+    font-weight: 700!important;
+}
 
 
 
